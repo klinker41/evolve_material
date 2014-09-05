@@ -45,6 +45,18 @@ android {
         green {
             applicationId "com.klinker.android.evolve_sms.material.green"
         }
+        blue {
+            applicationId "com.klinker.android.evolve_sms.material.blue"
+        }
+        orange {
+            applicationId "com.klinker.android.evolve_sms.material.orange"
+        }
+        purple {
+            applicationId "com.klinker.android.evolve_sms.material.purple"
+        }
+        red {
+            applicationId "com.klinker.android.evolve_sms.material.red"
+        }
     }
 
     lintOptions {
