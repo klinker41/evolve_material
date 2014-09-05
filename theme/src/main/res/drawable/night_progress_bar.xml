@@ -26,7 +26,7 @@
 
     <item android:id="@android:id/progress">
         <scale android:scaleWidth="100%"
-               android:drawable="@drawable/night_hangouts_progress_primary_holo_dark" />
+               android:drawable="@drawable/night_material_progress_primary_dark" />
     </item>
 
 </layer-list>
