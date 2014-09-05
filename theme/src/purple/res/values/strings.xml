@@ -18,6 +18,6 @@ limitations under the License.
 <resources>
 
     <!-- the name of your theme -->
-    <string name="app_name">Material Green</string>
+    <string name="app_name">Material Purple</string>
 
 </resources>
