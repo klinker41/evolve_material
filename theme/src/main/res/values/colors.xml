@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2014 Jacob Klinker
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <!-- the text color drawn on the message for the body -->
+    <color name="textColorSent">#0e0e0e</color>
+    <color name="textColorReceived">#0e0e0e</color>
+    <color name="night_textColorSent">#f1f1f1</color>
+    <color name="night_textColorReceived">#f1f1f1</color>
+
+
+    <!-- the text color drawn on the message for the date -->
+    <color name="dateColorSent">#4e4e4e</color>
+    <color name="dateColorReceived">#4e4e4e</color>
+    <color name="night_dateColorSent">#efefef</color>
+    <color name="night_dateColorReceived">#efefef</color>
+
+
+    <!-- the message entry color is for any message entry areas in the main window and the new message window -->
+    <color name="messageEntryColor">#0e0e0e</color>
+    <color name="night_messageEntryColor">#f1f1f1</color>
+
+
+    <!-- the color of the message entry hint, ie the text that says "type message" -->
+    <color name="messageHintColor">#880e0e0e</color>
+    <color name="night_messageHintColor">#88f1f1f1</color>
+
+
+    <!-- the color of the background for the drawer -->
+    <color name="drawerBackground">#ffffff</color>
+    <color name="night_drawerBackground">#292929</color>
+
+    <!-- the color of the conversation drawer text -->
+    <color name="conversationTextColor">#0e0e0e</color>
+    <color name="night_conversationTextColor">#f4f4f4</color>
+
+
+    <!-- the color of the dividers in the message list, setting to #00000000 will make them disappear -->
+    <color name="dividerColor">#00000000</color>
+    <color name="night_dividerColor">#00000000</color>
+
+
+    <!-- the color of the dividers in the conversation list -->
+    <color name="night_conversationDividerColor">#000000</color>
+
+
+    <!-- the background color for the conversations, this is what shows behind the messages -->
+    <color name="backgroundColor">#d8d8d8</color>
+    <color name="night_backgroundColor">#262626</color>
+
+
+    <!-- the colors for batch delete bubbles when the user is deleting conversations -->
+    <color name="cancelBatch">#a9d49f</color>
+    <color name="deleteBatch">#d95e5e</color>
+    <color name="infoBatch">#65bdde</color>
+    <color name="compose">#65bdde</color>
+    <color name="night_cancelBatch">#a9d49f</color>
+    <color name="night_deleteBatch">#d95e5e</color>
+    <color name="night_infoBatch">#4e90a9</color>
+    <color name="night_compose">#4e90a9</color>
+
+
+    <!-- the colors for the delayed sending progress bubble that shows on screen after sending a message -->
+    <color name="delayedSendingCircle">#d95e5e</color>
+    <color name="delayedSendingProgress">#FFFFFF</color>
+    <color name="night_delayedSendingCircle">#d95e5e</color>
+    <color name="night_delayedSendingProgress">#FFFFFF</color>
+
+
+    <!-- the colors for the text in the actionbar, normally the name and number of the contact -->
+    <color name="actionbarTitle">#f1f1f1</color>
+    <color name="actionbarSubtitle">#f1f1f1</color>
+    <color name="night_actionbarTitle">#f1f1f1</color>
+    <color name="night_actionbarSubtitle">#e1e1e1</color>
+
+
+    <!-- the colors for the status bar and nav bar -->
+    <color name="night_statusBar">#000000</color>
+    <color name="night_navigationBar">#000000</color>
+
+
+    <!-- include any other colors you may want to use in your layout below, these will
+         not have any effect except in your message.xml if you include them -->
+    <color name="night_sendbarBackground">#161616</color>
+
+</resources>
