@@ -18,14 +18,14 @@ limitations under the License.
 <resources>
 
     <!-- the text color drawn on the message for the body -->
-    <color name="textColorSent">#0e0e0e</color>
+    <color name="textColorSent">#f1f1f1</color>
     <color name="textColorReceived">#0e0e0e</color>
     <color name="night_textColorSent">#f1f1f1</color>
     <color name="night_textColorReceived">#f1f1f1</color>
 
 
     <!-- the text color drawn on the message for the date -->
-    <color name="dateColorSent">#4e4e4e</color>
+    <color name="dateColorSent">#efefef</color>
     <color name="dateColorReceived">#4e4e4e</color>
     <color name="night_dateColorSent">#efefef</color>
     <color name="night_dateColorReceived">#efefef</color>
