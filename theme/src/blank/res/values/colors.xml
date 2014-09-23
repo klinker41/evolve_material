@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2014 Jacob Klinker
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <!-- Main theme color for various parts on the screen, more of these things will be added in the future -->
+    <color name="theme_color">#a9d49f</color>
+    <color name="night_theme_color">#6ca15f</color>
+
+
+    <!-- the link color for any links in a message text -->
+    <color name="link_color">#3d8f26</color>
+    <color name="night_link_color">#3d8f26</color>
+
+
+    <!-- the color of the dividers in the conversation list -->
+    <color name="conversationDividerColor">#55a9d49f</color>
+
+
+    <!-- the background color of a selected conversation in the conversation list (ie, the conversation -->
+    <!-- that the user is currently viewing -->
+    <color name="selectedConversationColor">#44a9d49f</color>
+    <color name="night_selectedConversationColor">#44a9d49f</color>
+
+
+    <!-- the colors for the status bar and nav bar -->
+    <color name="statusBar">#53a93f</color>
+    <color name="navigationBar">#000000</color>
+
+</resources>
