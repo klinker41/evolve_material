@@ -18,7 +18,7 @@ limitations under the License.
 <resources>
 
     <!-- the colors for the status bar and nav bar -->
-    <color name="statusBar">#408331</color>
-    <color name="navigationBar">#408331</color>
+    <color name="statusBar">#c41411</color>
+    <color name="navigationBar">#c41411</color>
 
 </resources>
