@@ -17,8 +17,8 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/night_material_textfield_default_dark" />
     <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/night_material_textfield_disabled_dark" />
-    <item android:state_enabled="true" android:state_focused="true" android:drawable="@drawable/night_material_textfield_activated_dark" />
-    <item android:state_enabled="true" android:state_activated="true" android:drawable="@drawable/night_material_textfield_focused_dark" />
+    <item android:state_enabled="true" android:state_focused="true" android:drawable="@drawable/material_textfield_activated" />
+    <item android:state_enabled="true" android:state_activated="true" android:drawable="@drawable/material_textfield_focused" />
     <item android:state_enabled="true" android:drawable="@drawable/night_material_textfield_default_dark" />
     <item android:state_focused="true" android:drawable="@drawable/night_material_textfield_disabled_focused_dark" />
     <item android:drawable="@drawable/night_material_textfield_disabled_dark" />
