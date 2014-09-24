@@ -24,20 +24,23 @@ android {
         versionName "1.0"
     }
 
-    signingConfigs {
-        release {
-            storeFile file("../keystore.jks")
-            storePassword "testpass"
-            keyAlias "material_theme"
-            keyPassword "testpass"
+    File keystore = new File("../keystore.jks")
+    if (keystore.exists()) {
+        signingConfigs {
+            release {
+                storeFile file("../keystore.jks")
+                storePassword "testpass"
+                keyAlias "material_theme"
+                keyPassword "testpass"
+            }
         }
-    }
 
-    buildTypes {
-        release {
-            runProguard false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
+        buildTypes {
+            release {
+                runProguard false
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+                signingConfig signingConfigs.release
+            }
         }
     }
 
